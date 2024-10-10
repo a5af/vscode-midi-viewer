@@ -1742,6 +1742,19 @@ micromatch@^4.0.4:
     braces "^3.0.3"
     picomatch "^2.3.1"
 
+midievents@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/midievents/-/midievents-2.0.0.tgz#7c4995db7ec4a7941fa92ad8bd63be7a4864fc92"
+  integrity sha512-8ABFjr+IKj1ZMAERj0jo99v/ifXU6kCbx9QKj4lM5GccaU81FPk+OVgt3FptGF9zcEsGJY74pl6juRkXDQJs+A==
+
+midifile@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/midifile/-/midifile-2.0.0.tgz#54638749023c8ca37f6330eee43ce9f720c7d1d8"
+  integrity sha512-JQw8RzJ3auOKR/fWIgt6gqKXKrPdq/AZjToQroqTjL0heBa7Ra0EvzRf/y/RDAC/UGMs6eIwB7jLS3nc9DHxZQ==
+  dependencies:
+    midievents "^2.0.0"
+    utf-8 "^2.0.0"
+
 mimic-fn@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
@@ -2531,6 +2544,11 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
+
+utf-8@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/utf-8/-/utf-8-2.0.0.tgz#6c2a309d683958862a01b5bf8e1d2dff46d36bf9"
+  integrity sha512-DItg/Z20ltBzugPrb8Mx1oN0F8CqN5bD38T57YM/pF/GOzUsNVXiellI0PbJPq3e1Z7BEDNoWP1H1+4n7g54Cg==
 
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
