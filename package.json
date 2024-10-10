@@ -12,10 +12,15 @@
   "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
-    "commands": [
+    "customEditors": [
       {
-        "command": "midi-viewer.helloWorld",
-        "title": "Hello World"
+        "viewType": "midiViewer.customEditor",
+        "displayName": "MIDI Viewer",
+        "selector": [
+          {
+            "filenamePattern": "*.mid"
+          }
+        ]
       }
     ]
   },
